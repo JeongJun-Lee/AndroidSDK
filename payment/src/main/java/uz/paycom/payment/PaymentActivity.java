@@ -1,6 +1,7 @@
 package uz.paycom.payment;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+import java.util.Locale;
 
 import uz.paycom.payment.api.task.VerifyCardTask;
 import uz.paycom.payment.utils.CardNumberFormat;
@@ -110,6 +112,11 @@ public class PaymentActivity extends AppCompatActivity {
     //Set language from intent param
     lang = getIntent().getStringExtra(EXTRA_LANG);
     Context context = LocaleHelper.onAttach(this, lang);
+    Locale locale = new Locale(lang);
+    Locale.setDefault(locale);
+    Configuration config = new Configuration();
+    config.locale = locale;
+    context.getResources().updateConfiguration(config, context.getResources().getDisplayMetrics());
     Resources resources = context.getResources();
 
     this.setTitle(resources.getString(R.string.paycomTitle));

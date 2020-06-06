@@ -1,20 +1,20 @@
 <resources>
-    <string name="app_name">Paycom</string>
-    <string name="paymentSum">Сумма к оплате</string>
-    <string name="cardNumber">Номер карты</string>
-    <string name="uzcardOnly">Только карты Uzcard Online</string>
-    <string name="dateExpire">Срок истечения</string>
-    <string name="cardRemember">Запомнить карту</string>
-    <string name="continueText">Продолжить</string>
-    <string name="confirm">Подтвердить</string>
-    <string name="codeSent">КОД ПОДТВЕРЖДЕНИЯ ВЫСЛАН НА НОМЕР</string>
-    <string name="codeConfirm">КОД ПОДТВЕРЖДЕНИЯ</string>
-    <string name="error">Ошибка</string>
-    <string name="close">Закрыть</string>
-    <string name="tryAgainMessage">Произошла ошибка, попробуйте еще раз</string>
+    <string name="app_name">Payme</string>
+    <string name="paymentSum">Amount to be paid</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="uzcardOnly">Uzcard Only</string>
+    <string name="dateExpire">Expiration date</string>
+    <string name="cardRemember">Remember card</string>
+    <string name="continueText">Continue</string>
+    <string name="confirm">Confirm</string>
+    <string name="codeSent">CONFIRMATION CODE WILL BE SENT TO THE BELOW NUMBER</string>
+    <string name="codeConfirm">CONFIRMATION CODE</string>
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+    <string name="tryAgainMessage">An error has occurred, try again</string>
     <string name="cardNumberHint">xxxx xxxx xxxx xxxx</string>
-    <string name="dateExpireHint">мм/гг</string>
-    <string name="paycomTitle">Paycom Оплата</string>
-    <string name="invalidCard">Неправильный номер карты</string>
-    <string name="card_balance_currency">сум</string>
+    <string name="dateExpireHint">mm/yy</string>
+    <string name="paycomTitle">Payme payment</string>
+    <string name="invalidCard">Invalid card number</string>
+    <string name="card_balance_currency">som</string>
 </resources>
